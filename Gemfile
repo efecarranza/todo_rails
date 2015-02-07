@@ -43,3 +43,7 @@ group :development, :test do
   gem 'spring'
 end
 
+group :test do
+	gem 'shoulda-matchers', '~> 2.4.0'
+end
+
