@@ -24,18 +24,14 @@ h1 {
 	font-size: 20px;
 }
 
-li:before {
-	content: "-";
-}
-
 div.alert {
 	border: 2px solid #aaa;
 	padding: 10px;
 }
 
 div.flash.success {
-	border: 2px solid green;
-	color: green;
+	border: 2px solid #00796B;
+	color: #00796B;
 }
 
 div.flash.error {
@@ -44,6 +40,40 @@ div.flash.error {
 }
 
 div.flash.notice {
-	border: 2px solid blue;
-	color: blue;
+	border: 2px solid #727272;
+	color: #727272;
+}
+
+div.nav {
+	border-bottom: 1px solid #00796B;
+	margin-bottom: 20px;
+	padding: 10px 0 0 5px;
+}
+
+div.nav h1 {
+	float: left;
+	margin: 0 1em 0 0;
+}
+
+div.nav a { text-decoration: none !important; }
+
+div.nav ul {
+	float: left;
+	list-style: none;
+	clear: right;
+	margin: 0 0 0 1em;
+	padding: 0;
+}
+
+div.nav ul li a {
+	display: block;
+	width: auto;
+	padding: 8px 10px 8px 10px;
+	background: #B6B6B6;
+	color: #FFFFFF;
+}
+
+div.nav ul li a:hover {
+	background: #FFFFFF;
+	color: #B6B6B6;
 }
