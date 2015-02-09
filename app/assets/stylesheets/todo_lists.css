@@ -2,3 +2,26 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+div.todo_list {
+	border: 1px solid #00796B;
+	border-radius: 4px;
+	margin: 1em 0 1em 0;
+	padding: 2em;
+}
+
+	div.todo_list ul.functions {
+		margin: 1em 0 0 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		font-size: 0.8em;
+		clear: both;
+	}
+
+	div.todo_list li {
+		margin: 0 1em 0 0;
+		padding: 0;
+		float: left;
+	}
+
+
